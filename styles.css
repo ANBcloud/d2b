@@ -125,7 +125,7 @@ button {
   object-fit: cover;
   z-index: -1;
   /* FILTRO: cambia aquí los números según necesites */
-  filter: brightness(.6) blur(2.3px);
+  filter: brightness(.3) blur(0.5px);
   transition: filter 0.3s ease;
 }
 
@@ -2687,7 +2687,10 @@ letter-spacing: 0.15em;
 .hero__counter,
 .hero__counter .counter-line,
 .hero__counter .counter-line span {
-  opacity: 0.7;
+  opacity: 0.8;
 }
+
+
+
 
 
